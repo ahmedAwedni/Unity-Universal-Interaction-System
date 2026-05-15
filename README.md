@@ -38,7 +38,7 @@ The "Interactor" (Player) casts a physics ray forward. If it hits an object on t
 3. **Setup the UI:** Add a UI Panel and Text element to your Canvas. Attach "InteractionUI.cs" to the Canvas and link the Panel and Text references.
 4. **Create an Object:** Place a Cube in your scene (make sure it has a Collider). Set its Layer to "Interactable". Attach the "InteractableObject.cs" script.
 5. **Configure the Object:** Change the prompt to "Open Box". In the UnityEvent box, drag the Cube itself in and select "GameObject.SetActive" to false. 
-6. **Play:** Walk up to the box, see the "Press [E] to Open Box" prompt appear, press E, and watch the box disappear!
+6. **Play:** Walk up to the box, see the "Press [E] to Open Box" message appear, press E, and watch the box disappear!
 
 ---
 
