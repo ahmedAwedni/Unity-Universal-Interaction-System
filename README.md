@@ -36,7 +36,7 @@ The "Interactor" (Player) casts a physics ray forward. If it hits an object on t
 1. **Setup the Layers:** Go to the top right of the Unity Editor and add a new Layer called "Interactable".
 2. **Setup the Player:** Create an empty GameObject inside your Player's Camera (or body) and name it "InteractPoint". Attach the "Interactor.cs" script to your Player. Assign the "InteractPoint", set the distance to 3, and set the LayerMask to your new "Interactable" layer.
 3. **Setup the UI:** Add a UI Panel and Text element to your Canvas. Attach "InteractionUI.cs" to the Canvas and link the Panel and Text references.
-4. **Create an Object:** Place a Cube in your scene (make sure it has a Collider). Set its Layer to "Interactable". Attach the "InteractableObject.cs" script.
+4. **Create an Object:** Place a Cube(or any other object you want to test with) in your scene (make sure it has a Collider). Set its Layer to "Interactable". Attach the "InteractableObject.cs" script.
 5. **Configure the Object:** Change the prompt to "Open Box". In the UnityEvent box, drag the Cube itself in and select "GameObject.SetActive" to false. 
 6. **Play:** Walk up to the box, see the "Press [E] to Open Box" message appear, press E, and watch the box disappear!
 
